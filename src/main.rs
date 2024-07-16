@@ -6,7 +6,7 @@ use std::path::PathBuf;
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let matches = Command::new("ff-carl-cli")
         .version("1.0")
-        .author("Dmytro Dyvulskyi <dmytro.dyvulskyi@medserv.ie>")
+        .author("Dmytro Dyvulskyi <dmytro.dyvulskyi@nations-original.com>")
         .about("Manages Firefox mTLS ClientAuthRememberList.bin")
         .arg(
             Arg::new("scheme")

@@ -35,9 +35,9 @@ To add a client certificate entry to the `ClientAuthRememberList.bin` file for a
 ```sh
 ./target/release/ff-carl-cli \
   --scheme http \
-  --host dmytro.dev.medserv.ie \
+  --host dmytro.nations-original.com \
   --port 80 \
-  --domain medserv.ie \
+  --domain nations-original.com \
   --cert /path/to/testcert.der \
   --output /path/to/firefox/profile/ClientAuthRememberList.bin
 ```
