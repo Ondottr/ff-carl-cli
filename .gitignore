@@ -1,0 +1,40 @@
+# Binaries for programs and libraries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Binaries for scripts
+*.pyc
+
+# Backup files
+*.bak
+*.swp
+
+# Rust specific
+/target/
+**/target/
+**/Cargo.lock
+
+# If you are using the new "pip" integration of rust-analyzer
+.pip/
+.pip/*
+
+# Other files you may want to ignore
+# Depending on your editor you might want to include some of the following
+# Editor directories and files
+.idea/
+.vscode/
+*.code-workspace
+
+# Node modules
+node_modules/
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
