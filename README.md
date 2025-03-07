@@ -45,9 +45,9 @@ To add a client certificate entry to the `ClientAuthRememberList.bin` file for a
 ### Parameters
 
 - `--scheme` (`-s`): The URL scheme (http or https) for the host.
-- `--host` (`-h`): The host (e.g., `dmytro.dev.medserv.ie`)
+- `--host` (`-h`): The host (e.g., `dmytro.nations-original.com`)
 - `--port` (`-p`): The port (e.g., `443`)
-- `--domain` (`-d`): The base domain (e.g., `medserv.ie`)
+- `--domain` (`-d`): The base domain (e.g., `nations-original.com`)
 - `--cert` (`-c`): The path to the DER-encoded client certificate (e.g., `/path/to/client.der`)
 - `--output` (`-o`): The path to the Firefox profile's `ClientAuthRememberList.bin `file (e.g., `/home/user/mozilla/firefox/wsccqc81.ff-carl-test/ClientAuthRememberList.bin`)
 
